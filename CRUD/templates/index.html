@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <title>Página Inicial</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- <link rel="stylesheet" type="text/css" href="static/css/main.css"> -->         
+    </head>
+    <body>
+        <!-- Cabeçalho -->
+        <header>
+            <img class="logo" src="logo.jpg">
+        </header>
+
+        <!-- Principal -->
+        <article>
+            <h1>Cadastro de Equipamentos</h1>
+            <hr>
+            <button>
+                <a href="{{ url_for('cadastrar')}}" target="_blank">Cadastrar</a>
+            </button>
+            <button>
+                Alterar
+            </button>
+            <button>
+                Buscar 
+            </button>
+            <button>
+                <a href="{{ url_for('lista')}}" target="_blank">Listar</a>
+            </button>
+            <button>
+                Relatório
+            </button>
+            <button>
+                Sair
+            </button>
+        </article>
+
+        <!-- Rodapé -->
+        <footer>
+            &copy; 2018 - J & J Sistemas Inteligentes
+        </footer>
+    </body>
+<html>
+
+
